@@ -1,0 +1,30 @@
+A system where following is possible
+    - create a container of integers. Containers should not have a fixed size
+    - Ability to find
+        - Min number
+        - Max number
+        - Total numbers of elements in the container at the moment.
+        - Adding numbers
+        - removing numbers
+    - All elements of my container use heap memory (free pool)
+    - Zero Memory Leaks
+    - Each of functionalities should be independently callable
+    - Program should be written with best practices (for easy maintenance)
+
+
+    step 1 - Understand problem statement froma top level 
+
+    step 2 - Identify data models required (clases to be created)
+    
+    step 3 - For every calss to be created repeat the following steps 
+             3A] Identify the data members of the class
+             3B] Indentify the special member function (constructor , destructor, etc)
+             3C] Identify any user any defined functionalities to be added to the class
+    
+    step 4 - Identify all functionalities to be added to the system (excluding member function)
+
+    step 5 - For every functionalities repeat the following steps
+             5a) identify inputs of the function
+             5b) Identify the output from the function
+             5c) Identify special modifies for the function
+             5d) Visualize the solution to be dsigned and write the function 

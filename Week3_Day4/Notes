@@ -1,0 +1,13 @@
+4 core CPU
+1 core can execute 1 process at a time
+
+In one core : we can THEORETICALLY EXECUTE 2 threads CONCURRENTLY!
+    Meaning :
+    If one thread is facing a delay (I/O delay or cpu delay)
+    some other thread of the same process can be switched into
+
+TO DO FASTER EXECUTION,
+    - either we need to utilize multiple core (execution of multiple threads
+    parallely by runing one thread per core)
+    - If multiple cores are not availabe threads can still help but only if 
+    there is delay in your program beacause thread can switch when delay happen

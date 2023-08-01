@@ -1,0 +1,119 @@
+Important notes on object oriented programming
+
+what is OOPS in real->
+1. there should be a way for me to create a template a model or something that i want to make
+2. THere should be  a way for me to create data units for a model i create
+3. way for data units to send data to each other and communicate with each other
+
+Principles 
+---------------------------------------------------------------------------------------------------
+Encapsulation :
+    Data values and operation to be perform on the data ares strored together
+    in some model
+How to achieve : create data members & functions inside a class
+
+Abstraction :
+    Design solutions by indication common behaviour and hiding implementation details for each type demonstrating
+    the behaviour
+How to achieve: Create Abstract base class or interface 
+
+Inheritance:
+    Generlization and specialization 
+How to achieve: Apply single, multiple, multi-level , hybrid inheritance pattern
+
+
+Polymorphism: More than one way of doing something e.g for example writing one or more constructor then we can have more than one ways to 
+    create an object or function overloading
+
+How to achieve:
+    Run- time or compile time polymorphism using either 
+        -Method/ Function overriding
+        -Method overloading
+        -Meta Programming
+
+Class Vehicle-
+
+        - vehicleId
+        - vehicleBrand
+        - VehiclePrice
+
+        - Default Constructor disabled
+        - Copy constructor enaabled
+        - Parametrized constructor with all members enabled
+        - Abillity to calculate Tax for the car as 10$ of price
+
+    Car-
+
+        - carModel
+        - carType , SEDAN or SOPORTS
+        - copy constructor enabled
+        - Parametrized construction with all members enabled
+        - Ability to calculate Tax for the car as 10 % of price
+    
+    Bike- 
+        - bikeType COMMUTE , OFFROADER OR SPORTS
+        - Default construction disabled
+        - Copy constructor enabled
+        - Parametrized constructor with all members enabled
+        - Ability to calculateTax for the Bike as 5% of price
+
+
+Search what is duck typing and monkey typing C++ and JAVA has monkey typing and Python has duck typing.
+Search For SOR sepration of responsibility and also for design pattern
+
+When to USE ENUM :
+    For categorial Data that is fixed number of varitied for example:
+    Months in a calendar year
+    
+
+why to make an abstract class->
+
+----------------------------------------------------DAY 2 ----------------------------------------------------------
+
+search for lifetime of object
+
+
+We cant Make parametrized constructor by using default keyword
+why are you allowed to ass l literal value 10 fo a fucntion 
+that accped A rvalue reference to an integer
+
+
+---------------------------------------------------------------------------------------
+
+Virtual Notes
+
+/*
+    Non - Abstract Type Employee
+    Manager Extends employee or Manger derives from employee
+
+    Employee:
+        CalculateTax():
+            10 % of salary
+        
+    Manager:
+
+        CalculateTax():
+            12 % of salary
+
+
+        V table contains the most derived implementaion of 
+
+        Base class
+        Non virtual 1
+        [0x100H]
+        Non - Virtual 2
+        [0x100H]
+
+
+        If you are upcasting (parent type pointer child type objects)
+        -----------------------------------------------------------------
+
+        Rule 1 - for a non virtual function : NO MATTER WHAT IS THE TYPE OF OBJECT
+        ALWAYS THE BASE CLASS FUNCTION WILL BE CALLED
+
+        Rule 2 0 For a virtual function ( marked as virtual in base): COMPILER WILL CLL THE
+        MOST DERIVED VERSION OF THE FUNCTION i,e IT WILL LOOK IN THE HILD FOR AN OVERRIDEN 
+        VERSION OF THE FUNCTION  (Type of object Matters)        
+
+*/
+

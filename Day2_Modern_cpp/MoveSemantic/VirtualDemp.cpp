@@ -1,0 +1,39 @@
+/*
+    Non - Abstract Type Employee
+    Manager Extends employee or Manger derives from employee
+
+    Employee:
+        CalculateTax():
+            10 % of salary
+        
+    Manager:
+
+        CalculateTax():
+            12 % of salary
+
+
+        V table contains the most derived implementaion of 
+
+        Base class
+        Non virtual 1
+        [0x100H]
+        Non - Virtual 2
+        [0x100H]
+
+
+        If you are upcasting (parent type pointer child type objects)
+        -----------------------------------------------------------------
+
+        Rule 1 - for a non virtual function : NO MATTER WHAT IS THE TYPE OF OBJECT
+        ALWAYS THE BASE CLASS FUNCTION WILL BE CALLED
+
+        Rule 2 0 For a virtual function ( marked as virtual in base): COMPILER WILL CALL THE
+        MOST DERIVED VERSION OF THE FUNCTION i,e IT WILL LOOK IN THE aCHILD FOR AN OVERRIDEN 
+        VERSION OF THE FUNCTION  (Type of object Matters)
+
+        
+
+
+        
+
+*/

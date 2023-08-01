@@ -1,0 +1,40 @@
+Create a class vehicle  with the following attributes
+    - Vehicle Id
+    - vehiclePrice
+    - a parametrized constructor
+    - disable copy constructor and move
+    - getter , setter & << overload opeartot
+    
+Create a class Car with the following attributes
+
+    - CarBrand
+    - CarSeatcount
+    - carType which coulbe be SEDAN , SUV OR HYBRID
+    - a parametrized constructor
+    - disable copy and move constructor
+    - getter, setter & << overload operator
+
+Following functionalities are expected from the system
+
+    -Fetching average price of cars from a collection of cars
+    - Fetching average price of cars whose type match carType provided from a collection of cars
+    - Fetching average price of all cars whose type match carType and carBrand
+        Match the brand provided as parameter from a collection cars.
+    - Check whether all vehicles are of a type given as a parameter form a collection of cars
+    - find and print all details of a car whose carPrice is maximum.
+
+
+
+SEARCH FOR RAII (RESOURCE ACQUISITION IS INTIALIZATION)
+
+
+/*
+
+
+Life time of object
+
+    0x100h                          088H
+    [v101]                        [Honda]
+       |                             |
+    [ [VehicleId] | 1000000.00f  | [BRAND] |   4   |  SEDAN ]   
+        8 byte        4byte       8byte       4byte   4byte

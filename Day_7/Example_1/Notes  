@@ -1,0 +1,10 @@
+stack is faster than heap 
+if we re using array regular array then we cannot copy like
+arr[5] = {1,2};
+arr2[5] = arr  //ERROR 
+
+for that purpose we can use STL ARRAY 
+
+#include <array>
+
+array<int,sizeofarray> name_of_array;

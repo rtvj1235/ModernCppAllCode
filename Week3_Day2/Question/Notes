@@ -1,0 +1,12 @@
+/*
+    create two class emp and student 
+    emp contain 
+    id , name salary
+    student - id name and fees
+    in both overload + and - 
+    on emp + and - on salary
+    on student + and - on fees
+    functionalities
+    a function which can find total of all object passed as parameter do not use container pass using template...
+    
+*/

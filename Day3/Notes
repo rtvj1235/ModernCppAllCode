@@ -1,0 +1,54 @@
+Create class with the following functionalitites
+
+    - employeeId of type string
+    - employeeName of type string
+    - employeeGrade which could be either FTE , INTERN or NEW_RECRUIT
+    - employeeSalary which could be float value
+    - employeeLocation which could be string type value
+    - employeeSkills which could be collection of skillset , Employee should be able to add or remove
+        skillset as per their progress if required
+    - Ability to construct object by passing parameters for all data members
+    - Ability to copy an existing employee into a new employee
+    - Ability to transfer data fro an existing employee to a new emoloyee
+    - Ability to display all attributes of an employee via << operator
+    - Ability to find combines employee salary when adding to employees via + 
+    - Ability to construct an emplyee only on the basis of employeeId
+    - Ability to construct an employee only by using a string name value
+    - Ability to construct an employee by passing an id, name and salary vale.
+    - Ability to gain read write access to data
+
+All objects must be allocated on the heap
+All heap allocations must be freed
+All code should be divided into .h .cpp files as required
+
+data structure with the following characterstics 
+- continuous storage of fixed size (arary)
+- continuous storage of fixed size which could be increased if needed (vector)
+- access to only the last position for read and write (stack)
+- access to first and last postion for read and write respectively (queue)
+- 
+
+
+
+
+In modern cpp we can use using keyword to refer to this name for example
+
+suppose we need to write std::list<std::string> for that we can declare
+
+using Skills = std::list<std::String>
+
+now we can use Skills to create list of strings
+
+THE CHERNO
+/
+
+
+default
+delete
+explicit
+std::move()
+Move semantics
+Move constructor
+R value references 
+nullptr
+using keyword -> declare alternate name for datatype 

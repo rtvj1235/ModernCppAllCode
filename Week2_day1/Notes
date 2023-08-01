@@ -1,0 +1,53 @@
+
+    Structured Oriented (imperative coding)-----> HOW TO DO SOMETHING ?:
+        Blocks of loging executed in some sequence
+        one after the other or asynchronously
+
+    Object Oriented (Object - based / data - driven)
+        send/ receive signals for data units created on the basis of model
+
+    Functional Programming (declarative style)----------> WHAT TO DO?
+    [THINKING IN TERMS OF FUNCTIONS ALWAYS !!!!]
+    
+
+
+//RULE NO 1:
+    Always think like :  APPLY AN OPERATION(FUNCTION) ON DATA!
+
+HOW TO MAKE FUNCTION POINTERS
+
+for example
+
+int square(int number){
+    return number * number;
+}
+int cube (int number){
+    return number * number * number;
+}
+void sum (float a , int b){
+    return a+b;
+}
+
+int main()
+{
+    [return type] [Name of ptr] [agruments/parameters] = FUNCTION Name
+
+    int(*ptr1)(int) = square;
+    void(*ptr2)(float, int) = sum;
+    
+}
+
+
+
+    some opearion which are possible in a language that fully
+    supports Functional style coding !!
+
+
+    1. Every function has a type
+    2. A function can be passed as a parameter to another function
+    3. A function can return a function from the body of another function
+    4. Address of a fucntion can be stored in a lvalue '
+    5. A functions can be stored in data containers
+
+    A function that takes another function as parameter or returns a function 
+    is called higher order function

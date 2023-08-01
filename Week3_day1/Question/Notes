@@ -1,0 +1,29 @@
+create a class EngineeringStudent with the following attributes
+    -engineeringStudentId -int or string
+    -engineeringStudentBranch- either CS,IT,MECH,CIVIL,ECE
+    -engineeringStudentFees- float
+    -engineeringStudentCGPA- float (not more than 10)
+    -A member function to calculate scholarship based on following criteria
+        -for CGPA 8 and above, it is 40%
+        -For CGPA between 6-8, it is 10%
+
+ 
+
+create a class CommerceStudent with the following attributes
+    -commerceStudentId -int or string
+    -commerceStudentBranch- either CS,IT,MECH,CIVIL,ECE
+    -commerceStudentFees- float
+    -commerceStudentCGPA- float (not more than 10)
+    -A member function to calculate scholarship based on following criteria
+
+        -for CGPA * and above, it is 30%
+        -For CGPA between 6-8, it is 20%
+        -for fees over 5000, regardless of whatever CGPA at least 10% of fees
+
+ 
+
+Create the following functionalities
+    -A function to return a container of all instances of commerce or engineering 
+     student instances whose CGPA is over 8
+    -A function to return a container of all instances of engineering or engineering 
+     student instances whose scholarship amount over 10000

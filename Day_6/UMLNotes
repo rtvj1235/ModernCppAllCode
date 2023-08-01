@@ -1,0 +1,65 @@
+While reading UML Daigram thing to consider
+    - Type of line
+    - Type of arrow head
+    - Presence or absence of arrow head
+    - Direction of the arrow head (Where does the arrow head points)
+    - Cardinality (number of 
+            class, for example
+            (1..*) - it is called as one or more appreances
+            (0..*) - zero or more 
+
+        )
+
+    - Dotted line indicates abstraction in UML diagram it means presence of abstraction
+
+    - Basic Aggregation
+        an association with an aggregation relationship indicates that one class is a part
+        of the another class. in an aggregation relationship the child class instance can outlive
+         its parent class To represent an aggregation relationship you draw a solid line from the parent class to the part class and draw an unfilled daimond shape on the parent class's association end.
+    
+    - Composition Aggregation
+        THe composition aggregation relationship is just another from of the aggregation relationship
+        but the child class's instance lifecycle is dependent on the parent class instance lifecycle 
+        Compostion relationship is drawn like the aggregation relationship but this time the daimond is filled
+
+USE CASE DAIGRAM
+
+    - Oval or cricle inside the daigram denotes the functionalities
+    - A solid line that connects actor and functionalities 
+        means this functionalities is accessible by this actor 
+
+ACTIVITY DAIGRAM 
+    - In UML daigram you can use activity diagrams to model thesequenceof actions that must occur in a
+    System or application, or to describe what happens in a busiess process workflow
+
+    Filled oval cricle is starting point of the activity daigram
+    - a concentric circle  where the inner circle is filled is called the end of activity
+
+    Activity edge -
+        Connects two steps in activity daigram
+        a solid line with an arrow (Direction in important)
+
+    SwimLanes in activity daigram
+        - SwimLanes are horizontal or vertical lanes in an activity daigram that are used to organize
+            and categorize activities based on the role or responsibility of the participent performing
+
+SEQUENCE DAIGRAM -
+    The sequence daigram is used primarily to show the 
+
+    The main prupose of a sequence diagram is to define event sequences that result in some desired outcomes
+    The foucs is less on message themsleves and more on the order in which message occur neverthless most 
+    sequence diagrams will communicate what message are sent between a system object as well as 
+
+
+    in sequence diagram dotted line with an arrow is return type
+
+    MESSAGE-
+
+        The first message of a sequence diagram always start at the top of and is typically located
+        on the left side of the diagram for readibility subsequent messages are then added to the diagram slightly
+        lower than the previous message.
+        To show an object sending a message to another object you draw a line to'the receiving object
+        with a slid arrowhead (if a synchronous call operation) or with a stick arrowhead ( if an asynchronous signal).
+
+    Activation Box-
+        
